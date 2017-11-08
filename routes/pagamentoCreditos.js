@@ -122,9 +122,7 @@ router.delete('/creditos/:id', (req,res,next) => {
             res.status(200).send(resultado)
         }
     })
-
-
-
+    
 })
 
 module.exports = router;
